@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+<head>
+<title></title>
+<script type="text/javascript">
+var passes=0,failures=0,student=1,result;
+while(student<=5){
+result=window.prompt("Enter result(1=pass,2=fail)","0");
+  if(result=="1")
+     passes=passes+1;
+  if(result=="2")
+     failures=failures+1;
+  student=student+1;
+}
+document.writeln("Examination results");
+document.writeln("passed:"+passes+"<br/>failed:"+failures);
+if(passes>3)
+    document.writeln("Raise tuition");
+
+
+</script>
+</head>
+<body>
+
+
+</body>
+</html>
